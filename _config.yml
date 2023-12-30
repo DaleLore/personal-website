@@ -1,5 +1,20 @@
+# Site settings
+title: DaleLore
+email: DaleLoreNY@gmail.com
+
+# Google webmaster tools
+google_verify:
+
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
 layout: sidebar
+# layout: stacked
+
 style: light
+# style: dark
+
 
 plugins:
   - jekyll-octicons
@@ -17,33 +32,33 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 6
   exclude:
     archived: false
-    forks: true
+    forks: false
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: https://www.linkedin.com/in/lorena-a-ramirez-lopez/
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-  # twitter: your_username
+  twitter: dalelore
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
+  # website: 
   # youtube: your_username
 
 topics:
@@ -56,3 +71,5 @@ topics:
   - name: Sass
     web_url: https://github.com/topics/sass
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+
+# Instructions for personal-website theme: https://github.com/DaleLore/personal-website
